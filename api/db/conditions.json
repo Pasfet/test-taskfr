@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Возраст респондента",
+    "type": "range",
+    "value": [
+      {
+        "id": "1-1",
+        "from": 18,
+        "to": 35
+      },
+      {
+        "id": "1-2",
+        "from": 18,
+        "to": 35
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Тип карты лояльности",
+    "type": "select_card",
+    "value": [
+      { "id": "2-1", "name": "GOLD" },
+      { "id": "2-2", "name": "SILVER" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Статус карты лояльности",
+    "type": "select_status",
+    "value": [
+      { "id": "3-1", "name": "Active" },
+      { "id": "3-2", "name": "Disabled" }
+    ]
+  }
+]
