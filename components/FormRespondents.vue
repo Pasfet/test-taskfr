@@ -167,4 +167,14 @@ export default {
 .quiz-fade-leave-to {
   opacity: 0;
 }
+
+@media (max-width: 430px) {
+  .respondents-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .respondents-footer__button {
+    margin-bottom: 10px;
+  }
+}
 </style>

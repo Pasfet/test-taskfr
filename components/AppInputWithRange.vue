@@ -83,4 +83,11 @@ export default {
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 420px) {
+  .input__field {
+    width: 50px;
+    height: 50px;
+  }
+}
 </style>

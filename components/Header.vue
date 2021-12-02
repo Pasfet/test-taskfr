@@ -114,4 +114,13 @@ export default {
   color: #808080;
   font-size: 12px;
 }
+
+@media (max-width: 600px) {
+  .header__user {
+    margin-left: 10px;
+  }
+  .user-info__name {
+    font-size: 12px;
+  }
+}
 </style>

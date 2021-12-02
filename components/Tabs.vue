@@ -86,4 +86,25 @@ export default {
   position: absolute;
   visibility: hidden;
 }
+
+@media (max-width: 730px) {
+  .container {
+    padding: 10px;
+  }
+
+  .tabs__item {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabs__item {
+    padding: 12px;
+  }
+}
 </style>

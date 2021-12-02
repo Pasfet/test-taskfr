@@ -101,9 +101,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.menu {
   list-style-type: none;
 }
 
@@ -182,5 +179,21 @@ export default {
   border-color: #85d50b;
   stroke: #85d50b;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .aside__logo {
+    width: 20px;
+    height: 20px;
+  }
+  .menu__item {
+    width: 80%;
+    padding: 5px;
+    overflow: hidden;
+    white-space: normal;
+  }
+  .menu__item__image {
+    width: 20px;
+  }
 }
 </style>

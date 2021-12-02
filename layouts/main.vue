@@ -42,4 +42,10 @@ export default {
 .app-main {
   grid-area: main;
 }
+
+@media (max-width: 730px) {
+  .layout {
+    grid-template-columns: 80px 1fr;
+  }
+}
 </style>

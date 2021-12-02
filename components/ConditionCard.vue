@@ -236,4 +236,43 @@ export default {
 .remove__btn:hover svg {
   fill: #fff;
 }
+
+@media (max-width: 760px) {
+  .card-body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 620px) {
+  .card-row {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .card-actions {
+    width: 100%;
+  }
+
+  .card_and {
+    padding: 10px;
+    left: -5px;
+  }
+}
+
+@media (max-width: 550px) {
+  .card-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .add__btn {
+    margin-bottom: 10px;
+  }
+}
 </style>
